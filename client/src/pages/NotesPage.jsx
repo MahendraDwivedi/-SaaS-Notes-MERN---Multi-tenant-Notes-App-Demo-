@@ -373,7 +373,7 @@ export default function NotesPage() {
         // ✅ fetch tenant plan
         const p = await getTenantPlan(token, u.tenant);
         setPlan(p.plan);
-        console.log(plan);
+        // console.log(plan);
         
       } catch (err) {
         console.error(err);
