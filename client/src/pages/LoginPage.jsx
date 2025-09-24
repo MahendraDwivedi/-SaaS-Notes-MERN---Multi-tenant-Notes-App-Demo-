@@ -187,7 +187,7 @@ export default function Login() {
           {/* Additional Options */}
           <div className="mt-6 text-center">
             <button className="text-sm text-blue-600 hover:text-blue-700 transition-colors duration-200">
-              Forgot your password?
+              Pasword for all user and admin : password
             </button>
           </div>
         </div>

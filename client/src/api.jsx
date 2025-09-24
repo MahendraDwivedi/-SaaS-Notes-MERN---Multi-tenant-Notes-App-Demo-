@@ -5,6 +5,7 @@
 // const API_BASE = "https://saa-s-notes-mern-multi-tenant-notes.vercel.app/api"
 
 // 🔹 Auth
+
 export async function login(email, password) {
   try {
     const res = await fetch(`${API_BASE}/auth/login`, {
