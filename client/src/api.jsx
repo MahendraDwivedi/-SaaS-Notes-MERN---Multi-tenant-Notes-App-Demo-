@@ -1,6 +1,8 @@
 
 
-const API_BASE = "https://saas-notes-backend-qtzu.onrender.com/api";
+// const API_BASE = "https://saas-notes-backend-qtzu.onrender.com/api";
+
+const API_BASE = "https://saa-s-notes-mern-multi-tenant-notes.vercel.app/api"
 
 // 🔹 Auth
 export async function login(email, password) {
